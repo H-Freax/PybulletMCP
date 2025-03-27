@@ -8,7 +8,7 @@
 [![Email](https://img.shields.io/badge/Email-limyoonaxi@gmail.com-red?style=flat-square&logo=gmail)](mailto:limyoonaxi@gmail.com)
 
 </div>
-A flexible and extensible robot control system using PyBullet for simulation and FastAPI for web interface. PyBulletMCP is designed to provide a microservice-based architecture for robot control, enabling seamless integration between simulation and real-world applications.
+A flexible and extensible robot control system using PyBullet for simulation and FastAPI for web interface. PyBulletMCP is designed to provide a Model Context Protocol-based architecture for robot control, enabling seamless integration between simulation and real-world applications.
 
 ## Version
 
@@ -29,7 +29,7 @@ Current Version: v0.0.1 (Alpha)
 
 ## About PyBulletMCP
 
-PyBulletMCP is a microservice-based robot control system that separates the simulation environment from the control logic. This architecture provides several benefits:
+PyBulletMCP is a Model Context Protocol-based robot control system that separates the simulation environment from the control logic. This architecture provides several benefits:
 
 - **Decoupled Components**: The simulation environment runs independently from the control server
 - **Flexible Deployment**: Components can be deployed on different machines
@@ -252,8 +252,6 @@ Response:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-
-
 ## Citation
 
 If you use PyBulletMCP in your research or project, please cite it as:
@@ -261,7 +259,7 @@ If you use PyBulletMCP in your research or project, please cite it as:
 ```bibtex
 @software{pybulletmcp2024,
   author = {Yaoyao, Qian},
-  title = {PyBulletMCP: A Microservice-based Robot Control System},
+  title = {PyBulletMCP: A Model Context Protocol-based Robot Control System},
   year = {2024},
   publisher = {GitHub},
   url = {https://github.com/H-Freax/PybulletMCP},
